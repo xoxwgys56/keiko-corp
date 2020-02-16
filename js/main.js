@@ -119,7 +119,7 @@ $(document).ready(function() {
 const imageLoad = (className, src) => {
   const parent = document.querySelector(`.${className}`);
   parent.innerHTML = `<img src="${src}" alt="" title="" />`;
-  console.log('on load');
+  // console.log('on load');
 };
 
 const cssLoad = src => {
